@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+
+    justify-content: space-between;
+    min-height: 70vh;
+    flex-wrap: wrap;
+}
+.about{
+    display: flex;
+
+     width: 600px;
+     flex-direction: column
+
+}
+.sideBar{
+
+ display: flex;
+ flex-direction: column;
+ width: 260px;
+}
+
+.subContent{
+    padding-top: 30px;
+}
+
+.content p{
+    font-size: 1rem;
+    text-align: justify;
+}
+.subContent p{
+    font-size: 0.8rem;
+    color:#666666;
+}
+.uniName{
+    color: orange;
+}
+.image{
+    border-radius: 20px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .about{
+        order: 2
+    }
+    .sideBar{
+        order: 1
+    }
+    .image{
+        border-radius: 5px;
+    height: 300px;
+    margin: 0 auto;
+    margin-left: 30%;
+    margin-bottom: 30px
+    }
+
+
+}
