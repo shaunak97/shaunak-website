@@ -5,15 +5,31 @@
     flex-direction: column;
     align-items: center;
 
+
 }
+
+
 .footerList{
 
         display: flex;
-        list-style-type: none;
-        margin: 0;
+        margin: 0 auto;
+}
 
+.creator {
+  display: flex;
+  margin: 0 auto;
+}
+
+li {
+display: inline-block;
 
 }
+
+ul.ba {
+  list-style-type:none;
+
+}
+
 .navItem{
     padding: 5px;
 
@@ -22,5 +38,6 @@
 .anchor {
     color: #a6a8ab;
     font-weight: bold;
-    font-size: 0.9rem
+    font-size: 0.9rem;
+    text-decoration: none;
 }

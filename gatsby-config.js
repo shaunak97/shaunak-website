@@ -4,7 +4,14 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
-    `gatsby-plugin-sass`
+    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
   ],
 
 };
